@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Camila Fank Kist</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+
+<body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-3">
+                <header>
+                    <img src="logo.jpg" class="img-fluid rounded">
+                </header>
+            </div>
+            <div class="col-9" id="navlist">
+                <nav class="navbar-expand-lg container-fluid"> <!-- bg-body-tertiary -->
+                    <ul class="navbar-nav nav nav-underline flex justify-content-between"> <!--  -->
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="diversa.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contatos.html">Contatos e Encomendas</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div><br>
+
+    <main class="container">
+        <article class="container"> <!--text-center-->
+            <div class="row">
+                <div class="col-8">
+                    <section>
+                        <div class="p-9 p-md-5 mb-5 text-white rounded" id="tituloContato">
+                            <div class="col-md-20 px-0">
+                                <h2 class="display-90 fst-italic">Gostaria de encomendar uma pizza?</h2>
+                                <p class="lead">Basta preencher o formulário abaixo e enviar!</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="formNome" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" placeholder="Digite aqui seu nome..."
+                                        id="bordaVermelha">
+                                </div>
+                                <div class="col">
+                                    <label for="formNome" class="form-label">Sobrenome</label>
+                                    <input type="text" class="form-control" placeholder="Digite aqui seu sobrenome..."
+                                        id="bordaVermelha">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="mb-3">
+                                <label for="formGmail" class="form-label">Gmail</label>
+                                <input type="email" class="form-control" placeholder="nome@exemplo.com"
+                                    id="bordaVermelha">
+                            </div>
+
+                            <label for="checkSabor" class="form-label">Sabores</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkSabor">
+                                <label class="form-check-label" for="checkSabor">
+                                    Margherita
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkSabor">
+                                <label class="form-check-label" for="checkSabor">
+                                    Marinara
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkSabor">
+                                <label class="form-check-label" for="checkSabor">
+                                    4 stagioni
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkSabor">
+                                <label class="form-check-label" for="checkSabor">
+                                    Bianca
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkSabor">
+                                <label class="form-check-label" for="checkSabor">
+                                    Bismarck
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkSabor">
+                                <label class="form-check-label" for="checkSabor">
+                                    Boscaiola
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkSabor">
+                                <label class="form-check-label" for="checkSabor">
+                                    Diavola
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkSabor">
+                                <label class="form-check-label" for="checkSabor">
+                                    Mare e monti
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkSabor">
+                                <label class="form-check-label" for="checkSabor">
+                                    Napolitana
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkSabor">
+                                <label class="form-check-label" for="checkSabor">
+                                    Parmiggiana
+                                </label>
+                            </div>
+                            <br>
+                            <select class="form-select" aria-label="Default select example" id="bordaVermelha">
+                                <option selected>Forma de retirada</option>
+                                <option value="1">Retirar no local</option>
+                                <option value="2">Entregar em meu endereço</option>
+                            </select>
+                            <br>
+                            <select class="form-select" aria-label="Default select example" id="bordaVermelha">
+                                <option selected>Forma de pagamento</option>
+                                <option value="1">Pix</option>
+                                <option value="2">Cartão de crédito</option>
+                                <option value="3">Cartão de débito</option>
+                                <option value="4">Dinheiro</option>
+                            </select>
+                            <br>
+                            <div class="mb-3">
+                                <label for="formObservacao" class="form-label">Observação pedido</label>
+                                <textarea class="form-control" rows="3" placeholder="Digite aqui sua observação..."
+                                    id="bordaVermelha"></textarea>
+                            </div>
+                        </form>
+                    </section>
+
+                    <section>
+                        <div class="d-grid gap-2">
+                            <a href="contatos.html" class="btn btn-primary" id="botaoContato">
+                                <button class="btn btn-primary" type="button" id="botaoContato"
+                                    onclick="alert('Pedido realizado com sucesso')">Finalizar pedido</button>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-4">
+                    <aside>
+                        <div class="card" id="localizacao">
+                            <div class="card-header" id="headerLocalizacao">
+                                Localização
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Já foi à nossa pizzaria?</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Veja onde nossa sede principal se
+                                    localiza:</h6>
+                                <div class="my-map text-center">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.0475618807186!2d-49.1625026489425!3d-28.278065625868944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952110f50d82773f%3A0xeb9e81f399e794ba!2sR.%20Teodoro%20Bernardo%20Schlickmann%2C%20455%20-%20Centro%2C%20Bra%C3%A7o%20do%20Norte%20-%20SC%2C%2088750-000!5e0!3m2!1spt-BR!2sbr!4v1680772749116!5m2!1spt-BR!2sbr"
+                                        width="" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                    <br>
+                    <aside>
+                        <div class="card" id="localizacao">
+                            <div class="card-header" id="headerLocalizacao">
+                                Contatos
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-body-secondary">Caso queira entrar em contato conosco para
+                                    realizar a sua encomenda, pode nos enviar um gmail, uma mensagem no whats ou ligar
+                                    para o mesmo número.</p>
+                            </div>
+                            <div class="list-group list-group-flush">
+                                <a href="https://www.gmail.com/" class="list-group-item list-group-item-action"
+                                    id="bordaVermelha" target="_blank"><img src="gmail.jpg" id="iconeList">Gmail</a>
+                                <a href="https://www.whatsapp.com/" class="list-group-item list-group-item-action"
+                                    id="bordaVermelha" target="_blank"><img src="whatsapp.jpg"
+                                        id="iconeList">Whatsapp</a>
+                                <li class="list-group-item" id="bordaVermelha"><img src="telefone.jpg"
+                                        id="iconeList">+55 (49) 99999-9999</li>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <div class="container text-center">
+        <footer>
+            <nav class="navbar-expand-lg container-fluid" id="navfooter"> <!-- bg-body-tertiary -->
+                <ul class="navbar-nav nav flex justify-content-evenly border-bottom"> <!--  -->
+                    <li class="nav-item" id="linkFooter">
+                        <a class="nav-link" href="index.html #contato"><img src="seguir.jpg" id="iconeList">Siga-nos</a>
+                    </li>
+                    <li class="nav-item" id="linkFooter">
+                        <a class="nav-link" href="https://www.whatsapp.com/" target="_blank"><img
+                                src="whatsappbranco.jpg" id="iconeList">Junte-se à equipe</a>
+                    </li>
+                    <li class="nav-item" id="linkFooter">
+                        <a class="nav-link" href="contatos.html"><img src="cardapio.jpg" id="iconeList">Faça seu
+                            pedido</a>
+                    </li>
+                </ul>
+                <p class="text-center" id="pFooter">© 2021 Company</p>
+            </nav>
+
+        </footer>
+    </div>
+</body>
+
+</html>
