@@ -6,4 +6,4 @@ HTML, CSS e Bootstrap.
 - Semestre 2023/2, módulo 8.
 
 ## Descrição: 
-Site de uma pizzaria desenvolvido utilizando HTML, CSS e Bootstrap.
+Site de uma pizzaria, desenvolvido utilizando HTML, CSS e Bootstrap.
